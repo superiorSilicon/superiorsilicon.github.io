@@ -9,4 +9,59 @@ body {
 .main {
     background: #0D1112;
     height: 100%;
+    color: #ececec;
+}
+
+.navbar-image img {
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    z-index: -1;
+    display: block;
+}
+
+.navbar-title {
+    background: #040505;
+    color: #ececec;
+    font-size: 2rem;
+    display: block;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    padding: 5px 15px;
+    z-index: 2;
+}
+
+.navbar {
+    font-family: 'Inconsolata', 'Monaco', 'Consolas', 'Space Mono', 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin: auto 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ececec;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-item:hover {
+    background: #383e4a;
 }
