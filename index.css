@@ -16,8 +16,6 @@ body {
     border-radius: 100%;
     width: 10rem;
     height: 10rem;
-    z-index: -1;
-    display: block;
 }
 
 .navbar-title {
@@ -29,7 +27,7 @@ body {
     width: -moz-min-content;
     width: min-content;
     padding: 5px 15px;
-    z-index: 2;
+    margin-left: -5%;
 }
 
 .navbar {
@@ -55,7 +53,7 @@ body {
 
 .navbar-nav .nav-item {
     margin: auto 20px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     cursor: pointer;
     color: #ececec;
     text-decoration: none;
