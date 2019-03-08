@@ -1,5 +1,6 @@
 [{
     "name": "Dark WWT",
     "description": "Another dark theme for WWT",
-    "url": "https://userstyles.org/styles/169676/dark-wwt"
+    "url": "https://raw.githubusercontent.com/superiorSilicon/dark-wwt-theme/master/dark-wwt.user.css",
+    "screenshot": "https://raw.githubusercontent.com/superiorSilicon/dark-wwt-theme/master/dark-wwt-screenshot.png"
 }]
