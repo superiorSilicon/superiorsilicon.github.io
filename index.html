@@ -21,8 +21,8 @@
                 <div class="navbar-title">superiorSilicon</div>
             </div>
             <div class="navbar-nav">
-                <a class="nav-item">Themes</a>
-                <a class="nav-item">Scripts</a>
+                <a class="nav-item" onclick="document.querySelector('#themes-container').scrollIntoView({behavior: 'smooth', block: 'center'})">Themes</a>
+                <a class="nav-item" onclick="document.querySelector('#scripts-container').scrollIntoView({behavior: 'smooth', block: 'center'})">Scripts</a>
             </div>
         </div>
         <div class="description">
@@ -30,7 +30,7 @@
             <p class="welcome-text">Below, you can find all of the userstyles and userscripts I have created for various websites.</p>
             <p class="note"><b>NOTE:</b> For my themes, you will want to switch to <a href="https://add0n.com/stylus.html" target="_blank">Stylus</a> as the Stylish extension is no longer supported.</p>
         </div>
-        <div class="themes-container">
+        <div class="themes-container" id="themes-container">
             <h1 class="welcome-header">Themes</h1>
             <div class="themes">
             </div>
