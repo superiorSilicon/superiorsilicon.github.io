@@ -37,6 +37,7 @@ themesAjax.onreadystatechange = function() {
             var installElement = document.createElement('a');
             installElement.className = 'install-css';
             installElement.href = url;
+            installElement.target = '_blank';
             installElement.innerText = 'Install';
             var screenshotElement = document.createElement('div');
             screenshotElement.className = 'screenshot';
