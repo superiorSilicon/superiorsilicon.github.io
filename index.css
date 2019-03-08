@@ -111,18 +111,17 @@ p.welcome-text {
     font-size: 1.5rem;
 }
 
-.theme {
-    padding: 10px;
-    border-radius: 3px;
-    background: #1d1d1d;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 10px auto;
-    width: 75%;
+p.note {
+    background: #ececec;
+    color: #0f1314;
+    padding: 5px;
 }
 
-.theme .info {
+p.note a {
+    color: #0f1314;
+}
+
+.themes-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -130,18 +129,82 @@ p.welcome-text {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.themes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.theme {
+    background: #e9e9e9;
+    color: #0f1314;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 15px;
+    margin: 5px auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: stretch;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.install-css,
+.screenshot {
+    background: #383e4a;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto 3px;
+}
+
+.screenshot {
+    background: #62a1be;
+}
+
+.screenshot-img {
+    width: 100% !important;
+}
+
+.buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
-    text-align: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
 
-.theme .theme-screenshot {
-    width: 50%;
-}
-
-.info .title {
-    font-size: 2.5rem;
-}
-
-.info .description {
-    font-size: 1.1rem;
+.tingle-modal-box__content {
+    padding: 5px !important;
 }
